@@ -1,15 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+}
 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  margin-top: 10rem;
+}
+
+button {
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+#lightbulb {
+  font-size: 40rem;
+}
 
 .lightbulb-blue {
   color: blue;
+  text-shadow:    
+  0 0 140px white,
+  -10px 0 80px blue,
+  10px 0 80px blue;
 }
 
 .lightbulb-red {
   color: red;
+  text-shadow:    
+  0 0 140px white,
+  -10px 0 80px red,
+  10px 0 80px red;
 }
 
 .lightbulb-green {
   color: green;
+  text-shadow:    
+  0 0 140px white,
+  -10px 0 80px green,
+  10px 0 80px green;
 }
