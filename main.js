@@ -1,23 +1,22 @@
+// function changeColor(color) {
+//   var element = document.getElementById("lightbulb")
+//   const luz = ["lightbulb-red", "lightbulb-blue", "lightbulb-green"];
+//     if(luz.include(color))
+//       {
+//         luz.splice(color);
+//         element.classList.add(color)
+//       }
+//   element.classList.remove(luz);
+//   }
 
-function changeColorBlue() {
-  var element = document.getElementById("lightbulb")
-  element.classList.add("lightbulb-blue")
-  element.classList.remove("lightbulb-red", "lightbulb-green")
+const lightbulb = document.getElementById("lightbulb")
+
+const changeColor = (color) => {
+  lightbulb.classList.remove('lightbulb-blue', 'lightbulb-red', 'lightbulb-green')
+  lightbulb.classList.add(color)
 }
 
-function changeColorRed() {
-  var element = document.getElementById("lightbulb")
-  element.classList.add("lightbulb-red")
-  element.classList.remove("lightbulb-blue", "lightbulb-green")
+const shutDown = () => {
+  lightbulb.classList.remove('lightbulb-blue', 'lightbulb-red', 'lightbulb-green')
 }
 
-function changeColorGreen() {
-  var element = document.getElementById("lightbulb")
-  element.classList.add("lightbulb-green")
-  element.classList.remove("lightbulb-red", "lightbulb-blue")
-}
-
-function shutDown() {
-  var element = document.getElementById("lightbulb")
-  element.classList.remove("lightbulb-red", "lightbulb-blue", "lightbulb-green")
-}
