@@ -53,23 +53,23 @@ button:hover {
 .lightbulb-blue {
   color: blue;
   text-shadow:    
-  0 0 140px white,
-  -10px 0 80px blue,
-  10px 0 80px blue;
+  0 0 250px blue,
+  -10px 0 80px lightblue,
+  10px 0 80px lightblue;
 }
 
 .lightbulb-red {
   color: red;
   text-shadow:    
-  0 0 140px white,
-  -10px 0 80px red,
-  10px 0 80px red;
+  0 0 250px red,
+  -10px 0 80px lightcoral,
+  10px 0 80px lightcoral;
 }
 
 .lightbulb-green {
   color: green;
   text-shadow:    
-  0 0 140px white,
-  -10px 0 80px green,
-  10px 0 80px green;
+  0 0 250px green,
+  -10px 0 80px greenyellow,
+  10px 0 80px greenyellow;
 }
