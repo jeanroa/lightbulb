@@ -16,3 +16,8 @@ function changeColorGreen() {
   element.classList.add("lightbulb-green")
   element.classList.remove("lightbulb-red", "lightbulb-blue")
 }
+
+function shutDown() {
+  var element = document.getElementById("lightbulb")
+  element.classList.remove("lightbulb-red", "lightbulb-blue", "lightbulb-green")
+}
